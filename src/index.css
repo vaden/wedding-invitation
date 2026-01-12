@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+:root {
+  --bg-darkgreen-hov: hsl(128, 14%, 50%);
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+#root:before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("./assets/border-image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@media (max-width: 781px) {
+  #root:before {
+    background-size: 110% 130%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Allura", "Cormorant Garamond", "Cinzel", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Police texte */
+
+.text-name {
+  font-family: "Allura";
+}
+
+.text-principal {
+  font-family: "Cormorant Garamond";
+}
+
+.text-number {
+  font-family: "Cinzel";
+}
+
+/* Verts */
+.bg-euca {
+  background: #a8c3a0;
+}
+
+.bg-oliv {
+  background: #8fa88b;
+}
+
+.bg-darkgreen {
+  background: #5f7f63;
+}
+
+.text-col-euca {
+  color: #a8c3a0;
+}
+
+.text-col-oliv {
+  color: #8fa88b;
+}
+
+.text-col-darkgreen {
+  color: #5f7f63;
+}
+
+/* Dorés */
+.text-col-champ {
+  color: #d6b86c;
+}
+
+.text-col-lightgold {
+  color: #e6cc8a;
+}
+
+/* Noirs */
+.text-col-antra {
+  color: #2e2e2e;
+}
+
+.text-col-darkgray {
+  color: #3a3a3a;
+}
+
+/* Blancs */
+.bg-ivory {
+  background: #f8f7f4;
+}
+
+.text-col-ivory {
+  color: #f8f7f4;
+}
+
+/* Hovers */
+.darkgreen-hov:hover {
+  background: var(--bg-darkgreen-hov);
+}
