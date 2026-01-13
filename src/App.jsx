@@ -11,6 +11,7 @@ import RSVP from "./components/RSVP";
 import Footer from "./components/Footer";
 import { weddingData } from "./data/Weddingdata";
 import { formatDateForFooter } from "./utils/dateUtils";
+import Quote from "./components/Quote";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       />
 
       <MusicPlayer />
+
+      <Quote text={weddingData.quotes.main.text} />
 
       <Countdown targetDate={weddingData.couple.date} />
 

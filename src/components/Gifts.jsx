@@ -10,7 +10,7 @@ const Gifts = ({ title, message }) => {
         Regalo
       </h2>
       <p className="text-2xl font-bold text-col-antra mb-4">{title}</p>
-      <p className="text-col-antra max-w-2xl mx-auto">{message}</p>
+      <p className="text-xl text-col-antra max-w-2xl mx-auto">{message}</p>
     </Section>
   );
 };

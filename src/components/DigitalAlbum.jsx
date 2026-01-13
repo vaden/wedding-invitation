@@ -9,8 +9,8 @@ const DigitalAlbum = ({ albumUrl }) => {
       <h2 className="text-3xl md:text-4xl text-col-champ mb-6 font-bold">
         Álbum Digital
       </h2>
-      <p className="text-xl font-bold text-col-antra mb-4">¡Únete al álbum!</p>
-      <p className="text-col-antra mb-6 max-w-2xl mx-auto">
+      <p className="text-2xl font-bold text-col-antra mb-4">¡Únete al álbum!</p>
+      <p className="text-xl text-col-antra mb-6 max-w-2xl mx-auto">
         En el siguiente enlace puedes compartir las fotos de la boda con
         nosotros.
       </p>

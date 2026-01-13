@@ -9,10 +9,12 @@ const RSVP = ({ deadline, whatsappUrl }) => {
       <h2 className="text-3xl md:text-4xl text-col-darkgray mb-6 font-bold">
         Confirmación de Asistencia
       </h2>
-      <p className="text-col-antra mb-2">Tu asistencia es importante.</p>
-      <p className="text-col-antra mb-6">
+      <p className="text-xl text-col-antra mb-2">
+        Tu asistencia es importante.
+      </p>
+      <p className="text-xl text-col-antra mb-6">
         Por favor confirmar vía WhatsApp antes del{" "}
-        <span className="font-bold text-col-darkgreen">{deadline}</span>
+        <span className="font-bold text-col-antra">{deadline}</span>
       </p>
       <a
         href={whatsappUrl}

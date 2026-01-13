@@ -46,18 +46,18 @@ export const weddingData = {
   },
 
   album: {
-    url: "https://photos.google.com/share/AF1QipPEFZbNHFCvb6S13K9HC5L2pgEVW79KMWic48b7i36IrtmSE6A6zBryGRiuC6Zcnw?key=MnRZSzlDNXlkOWFWRXFwenIwX3RBMjcyRU5Kc1J3",
+    url: "https://photos.app.goo.gl/oNxYatA94fNE3WRz6",
   },
 
   rsvp: {
-    deadline: "20 de marzo de 2026",
-    whatsappUrl: "https://wa.me/qr/3R35X7HSKHNZN1",
+    deadline: "01 de abril de 2026",
+    whatsappUrl: "https://wa.me/573138954618",
   },
 
   quotes: {
     main: {
-      text: "Tener un lugar a donde ir, se llama Hogar.\nTener personas a quien amar, se llama Familia\ny tener ambas se llama Bendición.",
-      author: "Papa Francisco",
+      text: "Tenemos el honor y el más profundo placer de compartir contigo la celebración de nuestro amor. Sería muy significativo para nosotros que nos acompañaras a celebrarlo.",
+      author: "Stefania & Maxime",
     },
     footer: {
       text: "Andábamos sin buscarnos, pero sabiendo que andábamos para encontrarnos",
