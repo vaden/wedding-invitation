@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
-import MusicPlayer from "./components/Musicplayer";
+import MusicPlayer from "./components/MusicPlayer";
 import Countdown from "./components/Countdown";
 import Invitation from "./components/Invitation";
 import EventDetails from "./components/EventDetails";
