@@ -4,6 +4,13 @@ export const weddingData = {
     groom: "Maxime",
     date: "2026-05-09T15:30:00",
     dateDisplay: "09 de Mayo de 2026",
+    photos: [
+      "photo-couple.jpeg",
+      "photo-couple2.jpeg",
+      "photo-couple3.jpeg",
+      "photo-couple5.jpeg",
+      "photo-couple4.jpeg",
+    ],
   },
 
   parents: {
@@ -12,7 +19,7 @@ export const weddingData = {
   },
 
   ceremony: {
-    title: "Ceremonia",
+    title: "Ceremonia y Recepción",
     venue: "La Ruitoca Eventos",
     location: "Via Ruitoque",
     city: "Floridablanca - Santander",

@@ -9,10 +9,10 @@ const Footer = ({ bride, groom, date, quote }) => {
         {bride} & {groom}
       </div>
       <div className="text-2xl text-col-antra text-number mb-8">{date}</div>
-      <blockquote className="italic text-2xl text-col-darkgray max-w-2xl mx-auto">
+      <blockquote className="italic text-3xl text-col-darkgray max-w-2xl mx-auto">
         "{quote.text}"
       </blockquote>
-      <p className="mt-4 font-bold text-xl text-col-darkgreen">
+      <p className="mt-4 font-bold text-2xl text-col-darkgreen">
         {quote.author}
       </p>
       <Heart className="w-8 h-8 mx-auto mt-8 text-col-darkgreen animate-pulse" />

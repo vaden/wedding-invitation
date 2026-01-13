@@ -20,6 +20,9 @@ function App() {
         bride={weddingData.couple.bride}
         groom={weddingData.couple.groom}
         date={weddingData.couple.dateDisplay}
+        photos={weddingData.couple.photos}
+        layout="featured"
+        mobileLayout="horizontal"
       />
 
       <MusicPlayer />
