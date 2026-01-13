@@ -8,7 +8,7 @@ const MusicPlayer = () => {
 
   const volume = 0.2;
 
-  const musicUrl = "/music.mp3";
+  const musicUrl = `${import.meta.env.BASE_URL}music.mp3`;
 
   useEffect(() => {
     if (audioRef.current) {
