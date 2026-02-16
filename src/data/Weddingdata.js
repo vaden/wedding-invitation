@@ -19,23 +19,22 @@ export const weddingData = {
   },
 
   ceremony: {
-    title: "Ceremonia y Recepción",
+    title: "Ceremonia",
     venue: "La Ruitoca Eventos",
     location: "Via Ruitoque",
     city: "Floridablanca - Santander",
-    time: "3:30 p.m.",
+    time: "3:00 p.m.",
     mapUrl: "https://maps.app.goo.gl/GTuV85R1uZNHzWJD6",
   },
 
   reception: {
     title: "Recepción",
-    venue: "Conjunto Mediterrané",
-    subtitle: "Spa & Tennis Club",
-    location: "Salón Social Principal",
+    venue: "La Ruitoca Eventos",
+    location: "Via Ruitoque",
     address: "Cra. 12 #200 - 105",
     city: "Floridablanca - Santander",
-    time: "6:00 p.m.",
-    mapUrl: "https://maps.app.goo.gl/1BkaTqQAYb67Jz4ZA",
+    time: "3:30 p.m.",
+    mapUrl: "https://maps.app.goo.gl/GTuV85R1uZNHzWJD6",
   },
 
   dressCode: {

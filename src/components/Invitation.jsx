@@ -10,9 +10,6 @@ const Invitation = ({ date }) => {
 
   return (
     <Section className="text-center bg-ivory">
-      {/* <h2 className="text-3xl md:text-4xl text-col-champ mb-8 font-bold">
-        Tenemos el gusto de invitarte a
-      </h2> */}
       <div className="text-4xl text-col-champ font-light mb-8">
         Nuestra Boda
       </div>

@@ -33,7 +33,10 @@ function App() {
 
       <Invitation date={weddingData.couple.dateDisplay} />
 
-      <EventDetails ceremony={weddingData.ceremony} />
+      <EventDetails
+        ceremony={weddingData.ceremony}
+        reception={weddingData.reception}
+      />
 
       <DressCode
         type={weddingData.dressCode.type}
