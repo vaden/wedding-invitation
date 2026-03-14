@@ -18,7 +18,6 @@ const FloralDecoration = ({ position = "left", className = "" }) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        {/* Branche principale - Plus longue */}
         <path
           d={
             isLeft
@@ -31,13 +30,11 @@ const FloralDecoration = ({ position = "left", className = "" }) => {
           opacity="0.3"
         />
 
-        {/* Fleurs olive - Beaucoup plus de fleurs pour couvrir toute la hauteur */}
         {[
           80, 180, 280, 380, 480, 580, 680, 780, 880, 980, 1080, 1180, 1280,
           1380, 1480, 1580, 1680, 1780, 1880,
         ].map((y, i) => (
           <g key={`olive-${i}`}>
-            {/* Pétales */}
             <circle
               cx={isLeft ? 45 : 105}
               cy={y}
@@ -73,7 +70,6 @@ const FloralDecoration = ({ position = "left", className = "" }) => {
               fill="#6B8E23"
               opacity="0.5"
             />
-            {/* Centre doré */}
             <circle
               cx={isLeft ? 45 : 105}
               cy={y}
@@ -84,7 +80,6 @@ const FloralDecoration = ({ position = "left", className = "" }) => {
           </g>
         ))}
 
-        {/* Petites fleurs lavande - Plus de fleurs */}
         {[
           40, 130, 230, 330, 430, 530, 630, 730, 830, 930, 1030, 1130, 1230,
           1330, 1430, 1530, 1630, 1730, 1830, 1930,
@@ -135,7 +130,6 @@ const FloralDecoration = ({ position = "left", className = "" }) => {
           </g>
         ))}
 
-        {/* Feuilles - Plus de feuilles */}
         {[
           50, 150, 270, 410, 550, 700, 850, 1000, 1150, 1300, 1450, 1600, 1750,
           1900,
@@ -166,7 +160,6 @@ const FloralDecoration = ({ position = "left", className = "" }) => {
           </g>
         ))}
 
-        {/* Petites touches dorées - Plus de touches */}
         {[100, 290, 490, 650, 820, 990, 1160, 1330, 1500, 1670, 1840].map(
           (y, i) => (
             <circle

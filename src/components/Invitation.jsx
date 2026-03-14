@@ -2,7 +2,6 @@ import React from "react";
 import Section from "./Section";
 
 const Invitation = ({ date }) => {
-  // Parse date string "20 de Diciembre de 2025"
   const dateParts = date.match(/(\d+) de (\w+) de (\d+)/);
   const day = dateParts ? dateParts[1] : "20";
   const month = dateParts ? dateParts[2] : "Diciembre";
