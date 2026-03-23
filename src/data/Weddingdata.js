@@ -38,7 +38,7 @@ export const weddingData = {
   },
 
   dressCode: {
-    type: "Semi-formal",
+    type: "Formal",
     restrictions:
       "* Reservamos el color blanco para uso exclusivo de la novia; el verde oliva para uso del novio; y el lila para las damas de honor.",
     inspirationUrl:
