@@ -19,7 +19,7 @@ export const weddingData = {
   },
 
   ceremony: {
-    title: "Ceremonia",
+    title: "Ceremonia Simbolica",
     venue: "La Ruitoca Eventos",
     location: "Via Ruitoque",
     city: "Floridablanca - Santander",
